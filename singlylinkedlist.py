@@ -1,13 +1,9 @@
-
 class Node:
 	def __init__(self,data):
 		self.data = data
 		self.next = None
 
-	#def getData(self):
-	#	print(self.data)
-
-
+	
 class LinkedList:
 	def __init__(self):
 		self.head = None
@@ -29,7 +25,6 @@ class LinkedList:
 			print("Linked list is empty")
 			return
 		while current:
-			#current.getData()
 			print(current.data)
 			current = current.next
 
