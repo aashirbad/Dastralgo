@@ -55,7 +55,10 @@ class LinkedList(object):
 			print("empty list")
 			return
 		else:
+			tmp = self.head
+			return tmp.key
 			self.head = self.head.next
+
 
 	def topback(self):
 		current = self.head
@@ -137,28 +140,5 @@ class LinkedList(object):
 
 
 
-
-l = LinkedList()
-l.append(4)
-l.append(5)
-l.append(7)
-
-
-print("***")
-l.printData()
-l.addafter(1,44)
-print()
-l.printData()
-print("*****")
-l.addbefore(2,55)
-l.append(5)
-l.append(64)
-l.append(5)
-
-print("*****")
-l.printData()
-print("*****")
-print(l.find(5))
-l.delete(65)
-print("*****")
-l.printData()
+# Error code should be added if key not found for deletion
+# Error code in topfront and popfront
