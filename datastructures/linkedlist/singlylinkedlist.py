@@ -143,6 +143,3 @@ class LinkedList(object):
 
 # Error code should be added if key not found for deletion
 # Error code in topfront and popfront
-=======
-pass
->>>>>>> d7de8fd1e106514326b4fb97bb09b53e4490e842
